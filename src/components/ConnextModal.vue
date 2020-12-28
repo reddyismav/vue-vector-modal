@@ -5,7 +5,7 @@
             <div
                 class="Loading-Circle"
             >
-                <img src="../assets/loading.gif" alt="loading"><img>
+                <img src="../assets/867.gif" alt="loading"><img>
             </div>
             <div className="Loading-Message">Loading...</div>
         </div>
@@ -34,7 +34,7 @@
             :isCopyFunctionEnabled="false"
             :isQrCodeEnabled="false"
         />
-        <div class="todo">
+        <div v-if="depositAddress" class="todo">
             TODO STATUS BAR
         </div>
         <!-- Main Connext Modal -->
