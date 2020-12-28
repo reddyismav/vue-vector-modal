@@ -42,7 +42,6 @@
 
 <script>
 import { onMounted, ref, toRefs } from 'vue';
-import LoadingGif from '../assets/loading.gif';
 import { BrowserNode } from '@connext/vector-browser-node';
 import { 
     // BigNumber, 
