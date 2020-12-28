@@ -26,7 +26,9 @@
             :isQrCodeEnabled="true"
             :isCopyFunctionEnabled="true"
         />
-
+        <div v-if="depositAddress" class="todo">
+            TODO STATUS BAR
+        </div>
         <AddressInput
             v-if="depositAddress"
             :isDepositAddress="false"
@@ -34,9 +36,6 @@
             :isCopyFunctionEnabled="false"
             :isQrCodeEnabled="false"
         />
-        <div v-if="depositAddress" class="todo">
-            TODO STATUS BAR
-        </div>
         <!-- Main Connext Modal -->
     </div>
 </template>
@@ -409,5 +408,6 @@ export default {
 
 .todo{
     margin-top: 100px;
+    margin-left: 15px;
 }
 </style>
